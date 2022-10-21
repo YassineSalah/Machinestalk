@@ -1,0 +1,70 @@
+<mat-card>
+  <mat-card-actions>
+    <mat-grid-list cols="4"  rowHeight="40px">
+      <mat-grid-tile
+          colspan=4
+          rowspan=1
+          style.background="#ffffff">
+        <h4 class="myTileGrid userDetailGrid">User Details</h4> 
+      </mat-grid-tile>
+      <mat-grid-tile
+          colspan=4
+          rowspan=1
+          style.background="#ffffff">
+      </mat-grid-tile>
+      <mat-grid-tile
+          colspan=1
+          rowspan=1
+          style.background="#ffffff">
+        <h4 class="myTileGrid">Name</h4> 
+      </mat-grid-tile>
+      <mat-grid-tile
+          colspan=3
+          rowspan=1
+          style.background="#ffffff">
+        <h4 class="myTileGrid">{{user.name}}</h4> 
+      </mat-grid-tile>
+      <mat-grid-tile
+          colspan=1
+          rowspan=1
+          style.background="#ffffff">
+        <h4 class="myTileGrid">Email</h4> 
+      </mat-grid-tile>
+      <mat-grid-tile
+          colspan=3
+          rowspan=1
+          style.background="#ffffff">
+        <h4 class="myTileGrid">{{user.email}}</h4> 
+      </mat-grid-tile>
+      <mat-grid-tile
+          colspan=1
+          rowspan=1
+          style.background="#ffffff">
+        <h4 class="myTileGrid">Gender</h4> 
+      </mat-grid-tile>
+      <mat-grid-tile
+          colspan=3
+          rowspan=1
+          style.background="#ffffff">
+        <h4 class="myTileGrid">{{user.gender}}</h4> 
+      </mat-grid-tile>
+      <mat-grid-tile
+          colspan=4
+          rowspan=1
+          style.background="#ffffff">
+      </mat-grid-tile>
+      <mat-grid-tile
+          colspan=2
+          rowspan=1
+          style.background="#ffffff">
+          <button class="btn btn-danger myBtn"  (click)="onDeleteUser()" >Delete</button> 
+      </mat-grid-tile>
+      <mat-grid-tile
+          colspan=2
+          rowspan=1
+          style.background="#ffffff">
+          <button class="btn btn-success myBtn" (click)="onEditUser()" >Edit</button>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </mat-card-actions>
+</mat-card>

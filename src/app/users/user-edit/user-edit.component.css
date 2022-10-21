@@ -1,0 +1,14 @@
+.mat-card {
+    border-radius: 8px;
+    background-color: white;
+    margin: 150px 80px 60px;
+}
+.myBtn {
+    border-radius: 20px;
+    width: 100px
+}
+
+.myBtnChange {
+    border-radius: 20px;
+    width: 140px;
+}
